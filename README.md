@@ -7,6 +7,7 @@ Second to get the environment ready for minikube to use docker type in the comma
 `eval $(minikube docker-env)`
 
 Then to run a docker container within kubebernetes build the docker image with the following command in the proejects root directory:
-`docker build --tag flask-rest-api:latest .`
+`docker build --tag flask-rest-api:latest`.
+
 Next type in the command line:
 `kubectl apply -f deployment.yml`
