@@ -1,7 +1,8 @@
 This project's purpose was to see if I could deploy a docker image and container to minikube
 
 
-First start the minikube cluster with `minikube start`
+First start the minikube cluster with `minikube start`.
+
 Second to get the environment ready for minikube to use docker type in the command line:
 `eval $(minikube docker-env)`
 
