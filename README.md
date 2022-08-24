@@ -1,4 +1,4 @@
-This project's purpose was to see if I could deploy a docker image and container to minikube
+This project's purpose was to see if I could deploy a local docker image and container to minikube
 
 
 First start the minikube cluster with `minikube start`
